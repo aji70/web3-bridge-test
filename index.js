@@ -65,8 +65,8 @@ const form = document.getElementById("form");
           <p><strong>Name:</strong> ${contact.firstname} ${contact.lastname}</p>
           <p><strong>Email:</strong> ${contact.email}</p>
           <p><strong>Phone:</strong> ${contact.phone}</p>
-          <button onclick="editContact(${index})">Edit</button>
-          <button onclick="deleteContact(${index})">Delete</button>
+          <button class= "edit" onclick="editContact(${index})">Edit</button>
+          <button class= "delete" onclick="deleteContact(${index})">Delete</button>
         `;
         contactListContainer.appendChild(contactDiv);
       });
