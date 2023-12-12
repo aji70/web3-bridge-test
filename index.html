@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact MANAGEMENT</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <form class="form_container" id="form">
+        <div class="header_container">
+            <h2>Contact Form</h2>
+        </div>
+        <div class="input_container">
+          <label>Firstname</label>
+          <input type="text" id="firstname" />
+          <small id="firstname_err"></small>
+        </div>
+        <div class="input_container">
+          <label>Lastname</label>
+          <input type="text" id="lastname" />
+          <small id="lastname_err"></small>
+        </div>
+        
+        <div class="input_container">
+          <label>Email</label>
+          <input type="text" id="email" />
+          <small id="email_err"></small>
+        </div>
+        <div class="input_container">
+          <label>Phone Number</label>
+          <input type="tel" id="phone" />
+          <small id="phone_err"></small>
+        </div>
+        <div class="button_container"><button class="button">Submit</button></div>
+      </form>
+
+      <div class="form_container">
+        <button class="button display">Get Contact List</button>
+        <div id="list"></div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
