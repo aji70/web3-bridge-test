@@ -5,8 +5,7 @@ Welcome to the Contact Management System project! This web application allows us
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+ - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 
@@ -20,11 +19,16 @@ Welcome to the Contact Management System project! This web application allows us
 
 ## Getting Started
 
-### Prerequisites
-Make sure you have the following installed on your machine:
-- Web browser (e.g., Chrome, Firefox, Safari)
 
 ### Installation
 1. Clone the repository to your local machine:
    ```bash
    git clone [https://github.com/aji70/web3-bridge-test]
+
+## Usage
+Open the application in your web browser.
+Fill out the contact form with the required information.
+Click the "Add Contact" button to add the contact to the list.
+View and manage the list of contacts displayed on the page.
+To edit a contact, click the "Edit" button, make changes, and click "Add Contact" again.
+To delete a contact, click the "Delete" button next to the contact in the list.
